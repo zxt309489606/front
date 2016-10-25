@@ -1,0 +1,30 @@
+HTML基本的头部标签
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--移动端的页面这个可以忽略，具体可以查看本文Internet Explorer浏览器部分-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--具体可以查看本文 为移动设备添加 viewport 部分-->
+    <!-- 以上 3 个 meta 标签 *必须* 放在 head 的最前面；其他任何的 head 内容必须在这些标签的 *后面* -->
+    <title>页面标题</title>
+    ...
+</head>
+其中
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+在桌面开发的时候可以让IE浏览器以最新的模式渲染页面，具体可以查看本文Internet Explorer浏览器部分。
+如果你的页面确定只在桌面浏览器中运行，那么
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+也可以省略
+
+------------------------------------------------------------------------------------------------------------------------
+DOCTYPE
+
+DOCTYPE(Document Type)，该声明位于文档中最前面的位置，处于 html 标签之前，此标签告知浏览器文档使用哪种 HTML 或者 XHTML 规范。
+
+使用 HTML5 doctype，不区分大小写。
+
+<!DOCTYPE html> <!-- 使用 HTML5 doctype，不区分大小写 -->
